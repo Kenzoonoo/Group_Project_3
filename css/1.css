@@ -2,3 +2,70 @@ html {
     scroll-behavior: smooth;
     
   }
+
+.h1 { 
+  text-align: center;
+  padding: 1vh;
+}
+
+.center {
+  margin:10vw
+  
+}
+
+.Ingredients {
+  padding: 3vh;
+}
+
+.buttonz{
+  padding: 3vh;
+  width: 100vw;
+}
+
+.button1 {
+  padding-top: 3vh;
+}
+
+.btn-sm {
+  width: 100%;
+  padding-bottom: 5vh;
+  margin-bottom: 5%;
+}
+
+.card {
+  
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  
+}
+
+
+
+.navbar{
+  background-color: #618B25;
+ 
+}
+
+.brand {
+  padding-right: 36vw;
+}
+
+.card-body {
+  background-color: #FFAE42;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #618B25 !important;
+  border: #618B25 !important;
+}
+
+.jumbotron {
+  background-color: #FFAE42 !important;
+  margin: 5%;
+}
+
+.data-toggle {
+  background-color: #618B25;
+}
+

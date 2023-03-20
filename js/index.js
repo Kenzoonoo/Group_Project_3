@@ -1,4 +1,8 @@
-        // Select all »a« elements with a parent class »links« and add a function that is executed on click
+   
+   
+   
+   
+   // Select all »a« elements with a parent class »links« and add a function that is executed on click
 $( '.links a' ).on( 'click', function(e){
 	
     // Define variable of the clicked »a« element (»this«) and get its href value.
@@ -126,7 +130,10 @@ $( '.links a' ).on( 'click', function(e){
       "retina_detect": true
     });
     
-    
+    $(document).ready(function(){
+      $('.fixed-action-btn').floatingActionButton();
+    });
+     
     /* ---- stats.js config ---- */
     
     var count_particles, stats, update;
